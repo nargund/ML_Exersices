@@ -25,6 +25,8 @@ J = 0;
 %printf("Val of theta trans\n");
 %thetat %print thetat
 %printf('val of hyposthes1: \n');
+%NOTE: THE SAME ALGORITHM CAN BE USED FOR MULTI
+%VARIATE COST FUNCTION ALSO
 thetat=theta';%transpose of theta
 sigh=0;%sum of hmsq
 for k=1:m,
